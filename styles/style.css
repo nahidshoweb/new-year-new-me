@@ -5,7 +5,7 @@
 
 /* Banner Section Styles */
 .banner-container{
-    background-image: url("./images/banner/banner1.png");
+    background-image: url("/images/banner/banner1.png");
     background-repeat: no-repeat;
     height: 900px;
     background-size: cover;
@@ -97,40 +97,15 @@
     font-size: 25px;
     font-weight: 500;
 }
-.my-plans-banner {
-    position: relative;
+.my-plans-banner{
+    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-repeat: no-repeat;
     margin-top: 50px;
     width: 1140px;
     height: 300px;
     margin-left: 381.5px;
-    z-index: 1;
 }
 
-.my-plans-banner::before,
-.my-plans-banner::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-repeat: repeat;
-    background-size: cover;
-}
-
-.my-plans-banner::before {
-    background-image: url('./images/watch.png');
-}
-
-.my-plans-banner::after {
-    background-image: url('./images/gradient2.png');
-}
-
-.my-plans-banner .section-title,
-.my-plans-banner button {
-    position: relative;
-    z-index: 2; /* Ensure these elements are on top of the background images */
-}
 
 .my-plans-banner .section-title {
     padding: 59px 617px 0 64px;
@@ -151,6 +126,8 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+
 /* Service Section */
 .service-container{
     display: flex;
