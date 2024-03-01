@@ -1,241 +1,221 @@
-*{
-    margin: 0;
-    font-family: 'Work Sans', sans-serif;
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* Banner Section Styles */
-.banner-container{
-    background-image: url("/images/banner/banner1.png");
-    background-repeat: no-repeat;
-    height: 900px;
-    background-size: cover;
+.banner-container {
+  background-image: url("images/banner/banner1.png");
+  background-repeat: no-repeat;
+  height: 900px;
+  background-size: cover;
 }
-.banner-contents{
-    padding-left: 1050px;
-    padding-top: 216px;
-    padding-right: 230px;
-    text-align: right;
+.banner-contents {
+  padding-left: 1050px;
+  padding-top: 216px;
+  padding-right: 230px;
+  text-align: right;
 }
-.banner-title{
-    color: var(--Dark-01, #151414);
-    font-family: Work Sans;
-    font-size: 65px;
-    font-weight: 700;
-    margin-bottom: 25px;
+.banner-title {
+  color: var(--Dark-01, #151414);
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 25px;
 }
-.banner-description{
-    margin-bottom: 32px;
-    padding-left: 119px;
+.banner-description {
+  margin-bottom: 32px;
+  padding-left: 119px;
 }
-.primary-btn{
-    border: none;
-    border-radius: 5px;
-    background: #F15B22;
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    width: 160px;
-    height: 64px;
+.primary-btn {
+  border: none;
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  width: 160px;
+  height: 64px;
 }
 /* Achivements Section */
-.achivements-container{
-    display: flex;
-    padding-top: 140px;
-    padding-left: 277px;
-    padding-right: 322px;
-    padding-bottom: 100px;
+.achivements-container {
+  display: flex;
+  padding-top: 140px;
+  padding-left: 277px;
+  padding-right: 322px;
+  padding-bottom: 100px;
 }
-.author-img{
-
+.author-img {
 }
-.author-achivements{
-
+.author-achivements {
 }
-.author-achivements h3{
-    color: var(--Dark-01, #151414);
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 262px;
-    padding-left: 130px;
-    padding-right: 320px;
-    margin-bottom: 24px;
+.author-achivements h3 {
+  color: var(--Dark-01, #151414);
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 262px;
+  padding-left: 130px;
+  padding-right: 320px;
+  margin-bottom: 24px;
 }
-.author-achivements p{
-    color: var(--Dark-02, #444343);
-    padding-left: 131px;
-    padding-right: 216px;
-    margin-bottom: 16px;
+.author-achivements p {
+  color: var(--Dark-02, #444343);
+  padding-left: 131px;
+  padding-right: 216px;
+  margin-bottom: 16px;
 }
-.achivement{
-    margin-bottom: 10px;
+.achivement {
+  margin-bottom: 10px;
 }
 
 /* My Plans Styles */
-.my-plan-section{
-    padding-bottom: 100px;
+.my-plan-section {
+  padding-bottom: 100px;
 }
-.section-title{
-    color: var(--Dark-01, #151414);
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 50px;
-    text-align: center;
+.section-title {
+  color: var(--Dark-01, #151414);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
 }
-.my-plans-items{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 30px;
+.my-plans-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
 }
-.plan-item h4{
-    margin-bottom: 10px;
-    margin-top: 20px;
+.plan-item h4 {
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
-.plan-item p{
-    color: var(--Dark-03, #737272);
-    font-size: 25px;
-    font-weight: 500;
+.plan-item p {
+  color: var(--Dark-03, #737272);
+  font-size: 25px;
+  font-weight: 500;
 }
-.my-plans-banner{
-    background-image: url(/images/gradient1.png), url(/images/watch.png);
-    background-repeat: no-repeat;
-    margin-top: 50px;
-    width: 1140px;
-    height: 300px;
-    margin-left: 381.5px;
+.my-plans-banner {
+  background-image: url(images/gradient1.png), url(images/watch.png);
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  width: 1140px;
+  height: 300px;
+  margin-left: 381.5px;
 }
-
 
 .my-plans-banner .section-title {
-    padding: 59px 617px 0 64px;
-    text-align: left;
-    color: #FFF;
-    font-size: 40px;
-    font-weight: 700;
+  padding: 59px 617px 0 64px;
+  text-align: left;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .my-plans-banner button {
-    margin-left: 64px;
-    padding: 21px 36px 20px 36px;
-    border: none;
-    border-radius: 5px;
-    background: #FFF;
-    color: #F15B22;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
+  margin-left: 64px;
+  padding: 21px 36px 20px 36px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
 }
-
 
 /* Service Section */
-.service-container{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 30px;
-    /* margin: 0 150px; */
-    padding: 0 300px;
-    padding-bottom: 100px;
+.service-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  /* margin: 0 150px; */
+  padding: 0 300px;
+  padding-bottom: 100px;
 }
-.service{
-    background-color: #ef5b22;
-    border-radius: 10px;
-    padding: 50px 20px;
+.service {
+  background-color: #ef5b22;
+  border-radius: 10px;
+  padding: 50px 20px;
 }
 
-.service .section-title{
-    color: white;
-    margin-bottom: 20px;
+.service .section-title {
+  color: white;
+  margin-bottom: 20px;
 }
-.service-description{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
+.service-description {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
-.service-price{
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 20px;
+.service-price {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-.service button{
-    padding: 21px 36px 20px 36px;
-    border: none;
-    border-radius: 5px;
-    background: #FFF;
-    color: #F15B22;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.service button {
+  padding: 21px 36px 20px 36px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
 
 /* Footer section */
-footer{
-    display: flex;
-    background: var(--Dark-01, #151414);
-    color: white;
-    padding: 130px 0;
+footer {
+  display: flex;
+  background: var(--Dark-01, #151414);
+  color: white;
+  padding: 130px 0;
 }
 /* .footer-information{
     max-width: 1020px;
     margin-left: 150px;
 } */
 .footer-information {
-    padding-left: 203px;
-    padding-right: 703px;
+  padding-left: 203px;
+  padding-right: 703px;
 }
-.footer-information h3{
-    color: #F8F8F8;
-    font-size: 45px;
-    font-weight: 700;
-    margin-bottom: 16px;
+.footer-information h3 {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
-.footer-information p{
-    color: #FFF;
-    margin-bottom: 16px;
+.footer-information p {
+  color: #fff;
+  margin-bottom: 16px;
 }
-.footer-information a{
-    text-decoration: none;
-    margin-left: 5px;
+.footer-information a {
+  text-decoration: none;
+  margin-left: 5px;
 }
-.footer-subscription-area{
-    padding-right: 150px;
+.footer-subscription-area {
+  padding-right: 150px;
 }
-.footer-subscription-area h4{
-    color: #FFF;
-    margin-bottom: 30px;
-    font-size: 25px;
+.footer-subscription-area h4 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 25px;
 }
-.input-email{
-    border-radius: 8px;
-    border: 1px solid #FFF;
-    background-color: #151414;
-    padding: 21px 151px 22px 21px;
-    margin-bottom: 20px;
+.input-email {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: #151414;
+  padding: 21px 151px 22px 21px;
+  margin-bottom: 20px;
 }
-.subscribe-btn{
-    background: #FFF;
-    border: none;
-    border-radius: 8px;
-    padding: 20px 36px;
-    color: #F15B22;
-    font-size: 20px;
-    font-weight: 600;
+.subscribe-btn {
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 36px;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
 }
